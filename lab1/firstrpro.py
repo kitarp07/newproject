@@ -5,3 +5,4 @@ b = int (input ("Enter the number:" ))
 c = int (input ( "Enter the number:" ))
 d = a+b+c
 print (d)
+print(f"sum of thrre numbers {d}")
