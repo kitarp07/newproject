@@ -9,5 +9,7 @@ desks_two = (S_two//2)
 desks_three = (S_three//2)
 total_desks = (desks_one + desks_two + desks_three)
 remainder = (S_one + S_two + S_three)%(total_desks)
+
+
 print(f'The smallest number possible number of desks that can be purchased is {(total_desks) + (remainder)}')
 
